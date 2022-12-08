@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#color-picker{
+   width: 500px;
+   border: 1px solid black;
+   margin: 0 auto;
+   border-radius: 3px;
+}
+
+#header{
+   height: 50px;
+   border: 1px solid red;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+#color-input{
+   width: 60px;
+   height: 90%;
+}
+
+#color-schema-options{
+ height: 90%;
+ width: 60%;
+ font-size: 15px;
+ border-radius: 5px;
+}
+
+#submit-btn{
+    height: 90%;
+    font-size: 12px;
+    padding: 0 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#scheme{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+.color-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.color-showcase{
+  height: 100%;
+
+}
+
+.color-id{
+    padding:  15px 0;
+}

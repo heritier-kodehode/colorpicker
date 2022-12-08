@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Picker</title>
+</head>
+<body>
+    <div id="color-picker"> 
+    <div id="header">
+    <input id="color-input" type="color" />
+    <select name="scheme-select-picker" id="color-schema-options">
+        <option value="monochrome">Monochrome</option>
+        <option value="monochrome-dark">Monocrhome-dark</option>
+        <option value="monochrome-light">Monocrhome-light</option>
+        <option value="analogic">Analogic</option>
+        <option value="complement">Complement</option>
+        <option value="analogic-complement">Analogic-complement</option>
+        <option value="triad">Triad</option>
+
+    </select>
+    <button id="submit-btn">Get color Scheme</button>
+    </div>
+    <div id="scheme">
+       <div class="color-container">
+        <div class="color-showcase"></div>
+        <h4 class="color-id">#FBF3AB</h4>
+       </div>
+
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
